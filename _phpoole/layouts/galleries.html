@@ -1,0 +1,9 @@
+{% extends "page.html" %}
+
+{% block pagefooter %}
+{% for item in site.pages('galeries') %}
+<ul>
+	<li><a href="{{ site.base_url }}/{{ item.path }}">{{ item.title }}</a></li>
+</ul>
+{% endfor %}
+{% endblock pagefooter %}
