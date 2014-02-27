@@ -1,0 +1,17 @@
+{
+    "name": "phpoole/plugin-twbootstrap",
+    "type": "symfony1-plugin",
+    "description": "PHPoole Twitter Bootstrap plugin",
+    "keywords": ["phpoole", "plugin", "bootstrap"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0",
+        "components/bootstrap": "3.*"
+    },
+    "extra": {
+        "installer-name": "TwBootstrap"
+    }
+}

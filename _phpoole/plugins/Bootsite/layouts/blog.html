@@ -1,0 +1,9 @@
+{% extends "page.html" %}
+
+{% block pagefooter %}
+{% for item in site.pages('blog') %}
+<h3><a href="{{ site.base_url }}/{{ item.path }}">{{ item.title }}</a></h3>
+<p>{{ item.content }}</p>
+{% endfor %}
+
+{% endblock pagefooter %}

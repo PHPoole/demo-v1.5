@@ -1,0 +1,7 @@
+{% extends "page.html" %}
+
+{% block pagefooter %}
+{% for image in page.gallery %}
+<p><img src="{{ site.base_url }}/{{ page.path }}/{{ image.name }}" class="img-responsive" /></p>
+{% endfor %}
+{% endblock pagefooter %}

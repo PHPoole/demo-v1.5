@@ -1,0 +1,14 @@
+{
+    "name": "phpoole/plugin-gallery",
+    "type": "symfony1-plugin",
+    "description": "PHPoole Gallery plugin",
+    "keywords": ["phpoole", "plugin", "gallery"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "Gallery"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "phpoole/plugin-bootsite",
+    "type": "symfony1-plugin",
+    "description": "PHPoole default layouts",
+    "keywords": ["phpoole", "plugin", "bootstrap"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3",
+        "composer/installers": "~1.0",
+        "phpoole/plugin-twbootstrap": "@dev"
+    },
+    "extra": {
+        "installer-name": "Bootsite"
+    }
+}

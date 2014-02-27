@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoole/plugin-twbootstrap": "@dev",
+        "phpoole/plugin-bootsite": "@dev",
+        "phpoole/plugin-gallery": "@dev"
+    }
+}
